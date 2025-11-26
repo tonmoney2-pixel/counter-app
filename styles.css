@@ -1,0 +1,56 @@
+body{
+font-family: Orbitron;
+font-weight: bolder;
+background-image: url(images/websitebackground.jpg);
+background-size: cover;
+}
+
+.orbitron{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+#app-counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    height: 50px;
+    width: 100px;
+}
+#increment-btn{
+    background-color: green;
+    color: white;
+    font-family: Orbitron;
+    font-weight: bold;
+      box-shadow: 2px 2px black;
+}
+#save-btn{
+    background-color: red;
+    color: white;
+    font-family: Orbitron;
+    font-weight: bold;
+      box-shadow: 2px 2px black;
+}
+button:hover{
+    scale: 1.1;
+}   
+#previous-el{
+    text-align: center;
+    margin-top: 50px;
+}
+.container{
+    background-color: white;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
