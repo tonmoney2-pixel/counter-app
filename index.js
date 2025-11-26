@@ -8,9 +8,9 @@ function increment(){
 }
 
 let previousEl=document.getElementById("previous-el")
-let message="Previous entries are"
 function save(){
-    previousEl.textContent=count + "-"
+    let saveBtn=  " "+ count + " - "
+    previousEl.textContent += saveBtn
     countEl.innerText=0
-    count=0
+    count =0
 }
